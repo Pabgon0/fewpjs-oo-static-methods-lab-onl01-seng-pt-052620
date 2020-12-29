@@ -7,7 +7,7 @@ class Formatter {
     return string.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
   }
   
-  static titleize(string) {
+  static titlesize(string) {
     let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ]
     let result = [];
     let arrayOfWords = string.split( " " )
